@@ -1,0 +1,144 @@
+h1{
+    font-size: 150px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.container{
+    margin-left: 5%;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-image: url('../images/dna.jpn.png'); */
+    height: 100%; 
+    background-position: center;
+    background-repeat: repeat; 
+}
+label{
+    font-size: 30px;
+    font-family: cursive;
+    font:bolder;
+}
+button#buttonAdded{
+    margin-top:5%;
+    background: none;
+    border:none;
+}
+button.button-clicked,
+p,
+input#select-search{
+    font: bold;
+    /* background-color: rgba(143, 170, 68, 0.667); */
+    width: 100px;
+    font-size: 20px;
+    color:black;
+    padding: 5px;
+    margin: 10px 40px 10px 0px;
+    border: 1px solid #1d3c6a; 
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #ffff;
+    margin-top: 30px;
+  
+}
+input#search-input{
+    width: 230px;
+    padding:8px;
+    background: #ffff;
+    border: 1px solid #1d3c6a;
+    
+}
+
+#search-form{
+    position: relative;
+    float: right;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+img.anImg{
+    width: 250px;
+    height: 200px;
+    /* box-shadow: 10px 10px 5px  gray; */
+float: left;
+
+}
+p{
+ 
+    padding: 10px;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+}
+#h1{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 49px; 
+    color: #fff;
+    text-align: center;
+}
+
+.image {
+
+    height: 100px;
+    width:  100px;
+    background-color:white;
+    border-style: solid;
+    border-color:black;   
+    margin:10px;
+
+}
+
+.guessNumber{
+    float: left;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: white;
+    margin:10px;
+    line-height: 3em;
+
+}
+
+.totalWinLoss  {
+
+    float: left;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-bottom:20px;
+    color:white;
+    margin:10px;
+    line-height:3em;
+}
+
+.score{
+    float: left;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-bottom:20px;
+    color:white;
+    margin:10px;
+    line-height:3em;
+    }
+
+#box {
+    float: left;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 600px;
+    color:white;
+    margin: 10px;
+}

@@ -1,0 +1,86 @@
+body{
+    background-image: url('../images/image.jpn.jpeg');
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.image{
+    margin-bottom: 30px;
+    
+}
+#bio {
+    line-height: 1.5;
+    
+}
+.playlist {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    color: #fff;
+    padding: 5px 8px;
+}
+#tracker {
+    height: 45px;
+    left: 0px;
+    width: 100%;
+    background: white;
+    border-radius: 100px;
+    margin: 20px 0px 10px;
+    position: relative; 
+    
+}
+.playlist-title{
+    float: left;
+    width: 100%;
+}
+/* source{
+  padding: 0 0 20px 0;
+} */
+
+/* .rew{
+    -webkit-media-controls-play-button
+} */
+div.gsc-control-cse.gsc-control-cse-en{
+
+   
+    margin-top: 55px;
+    padding: 10px;
+    border-radius: 5%;
+    
+}
+/* td.gsc-input{
+    background: pink;
+    padding: 40px;
+} */
+
+playIcon{
+    background-position: -54px -171px;
+    border-radius: 50%;
+   
+}
+.playalbumtitle{
+    width: 100%;
+}
+#fa-play{
+    padding-right: 45px;
+}
+.rew,
+.play,
+.volumeButton,
+.pause,
+.fwd
+{
+    border-radius: 60%;
+    padding: 20px; 
+}
+.volumebut{
+   word-spacing: 20px;
+}
+
+li{
+    float: left;
+    padding: 10px;
+    /* float: left; */
+    align-content: flex-start;
+}
