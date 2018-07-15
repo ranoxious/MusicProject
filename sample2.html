@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added link to the Bootstrap Library -->
+  <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+  <link rel="stylesheet" href="assets/css/sample2.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <title>Music</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <!-- <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a> -->
+              <!-- Trigger/Open The Modal -->
+<a class="nav-link" id="myBtn" href="#">Twitter <span class="sr-only">(current)</span></a>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Search what's trending about your Artist</h2>
+    </div>
+    <div class="modal-body">
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+    <div class="modal-footer">
+    
+    </div>
+  </div>
+
+</div>
+            </li>
+
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+              <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="concertTicket.html">Concert Ticket</a>
+                <a href="bio.html">Artist Bio</a>
+                <a href="game.html">Game</a>
+                <a href="sample2.html">Sample2</a>
+              </div>
+            </div>
+      
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container">
+    <div class="sq-player clearfix">
+        <div class="sq-ms-player">
+            <div class="image">
+                <img src="assets/images/image.jpn.jpeg">
+            </div>
+            <div class="music-details">
+                <div class="artist"> </div>
+                <p id="artistName"> Artist name will go here </p>
+            </div>
+            <!-- bio or something goes here -->
+            <p id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Maecenas eu velit dolor. Nulla facilisi. Donec at viverra tortor. 
+                 Vestibulum quis quam ut nibh mattis viverra sit amet id orci. Nunc… </p>
+ 
+            <div class="controls">
+                <!-- <div class="col-md-12  col-xs-12">
+                    <div class="tracker"></div>
+                </div> -->
+                <!-- The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element. -->
+                <audio id="tracker" controls>
+                    <source src="assets/sampleAu.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                  </audio>
+                <div class="volumebut">
+                <button class="volumeButton"><i class="material-icons">volume_up</i> </button>
+                <!-- <audio class="rew"></audio> -->
+                <button class="rew"> <i class="fa fa-backward"></i></button>
+                <button class="play"><i class="fa fa-play"></i> </button>
+                <button class="pause"> <i class="fa fa-pause"></i> </button>
+                <button class="fwd">   <i class="fa fa-backward"></i></button>
+                </div>
+            </div>
+
+            <!-- NOTe-if you want to add more -->
+            <!-- 
+            <i class="fa fa-arrows-alt"></i>
+            <i class="fa fa-backward"></i>
+            <i class="fa fa-compress"></i>
+            <i class="fa fa-eject"></i>
+            <i class="fa fa-expand"></i>
+            <i class="fa fa-fast-backward"></i>
+            <i class="fa fa-fast-forward"></i>
+            <i class="fa fa-forward"></i>
+            <i class="fa fa-pause"></i>
+            <i class="fa fa-play"></i>
+            <i class="fa fa-play-circle"></i>
+            <i class="fa fa-play-circle-o"></i>
+            <i class="fa fa-step-backward"></i>
+            <i class="fa fa-step-forward"></i>
+            <i class="fa fa-stop"></i>
+            <i class="fa fa-youtube-play"></i> -->
+        </div>
+        <div class="playTitle">
+            <button  class="playalbumtitle">  <i id="fa-play"class="fa fa-play"></i> playlist-title album</button>
+            <br><br>
+            <ul class="playlist">
+                <!-- NOTE:use one of the format (<li>-->
+            <li   id="song" audiourl="assets/data/02.mp3" cover="assets/data/cover2.jpg" artist="Wizkid ">Song should play here</li>
+            <!-- <li src="assets/sampleAu.mp3" type="audio/mpeg" artist="yodit">Song title</li> -->
+            </ul>
+        </div>
+    </div>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+</body>
+ 
+</html>

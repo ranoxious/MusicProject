@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+    <!-- Added link to the Bootstrap Library -->
+    <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <title>Music</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/entertainmnet.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <!-- <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a> -->
+                      <!-- Trigger/Open The Modal -->
+        <a class="nav-link" id="myBtn" href="#">Twitter <span class="sr-only">(current)</span></a>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>search what's tranding about your Artist</h2>
+            </div>
+            <div class="modal-body">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+            
+            </div>
+          </div>
+        
+        </div>
+                    </li>
+        
+        
+                    
+                    <!-- dropdown content can be change based on need -->
+                   
+                    <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Dropdown
+                            </a>
+                          <div class="dropdown-content">
+                            <a href="index.html">Home page</a>
+                            <a href="concert-ticket.html">concert-ticket</a>
+                            <a href="bio.html">Artist Bio</a>
+                            <a href="entertainment.html">Entertainment</a>
+                          </div>
+                       
+                        </div>
+              
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+              <div class="container"> 
+                    <div id="button"></div>
+                    <button id="buttonAdded"></button>
+                   <form id="search-form">
+                    <label for="search-input">Entertain yourself!</label><br>
+                    <br>
+                    <input type="text" placeholder="Search for Artist!" id="search-input">
+                    <br>
+                    <input id="select-search" type="submit" value="submit">
+                  </form>
+                  <div id="search"></div> 
+                  
+            </div>
+           
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/entertainment.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</body>
+</html>

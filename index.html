@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added link to the Bootstrap Library -->
+  <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+  <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/LeaVerou/awesomplete/gh-pages/awesomplete.css"> -->
+  <title>Music</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <!-- <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a> -->
+              <!-- Trigger/Open The Modal -->
+<!-- <a class="nav-link" id="myBtn" href="#">Twitter <span class="sr-only">(current)</span></a> -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Search what's trending about your Artist</h2>
+    </div>
+    <div class="modal-body">
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+    <div class="modal-footer">
+
+    </div>
+  </div>
+
+</div>
+            </li>
+
+
+            <!-- dropdown content can be change based on need -->
+
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+              <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="concertTicket.html">Concert Ticket</a>
+                <a href="bio.html">Artist Bio</a>
+                <a href="game.html">Game</a>
+                <a href="sample2.html">Future Bio</a>
+              </div>
+            </div>
+
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+
+
+  <div class="music">
+
+    <iframe  src="https://www.youtube.com/embed/RsgbRuGZe64" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/pRpeEdMmmQ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/RsgbRuGZe64" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/pRpeEdMmmQ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/60ItHLz5WEA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe  src="https://www.youtube.com/embed/RsgbRuGZe64" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+  </div>
+
+    <h1 class="headone">Beck and Call</h1>
+    <h3 class="headtwo">Your One Stop One Shop Music</h3>
+
+    <form id="search-form">
+      <div class="search">
+     <input id="artist-input" type="text" placeholder="Search for Artist Name"  />
+     <button  id="select-artist" type="submit">Search</button>
+      </div>
+      <br/>
+  </form>
+ <h6 class="headsix">Listen to your favorite artists at your leisure</h6>
+
+  <div>
+    <div id="artist-div">
+      <div id="concert-div">
+    </div>
+  </div>
+
+
+
+   <center> <footer class="footer">
+        The Dragons &copy; 2018
+       </footer></center>
+
+         <!-- Link to external javaScript -->
+  <script src="assets/javascript/app.js" type="text/javascript"></script>
+  <!-- <script src="https://cdn.rawgit.com/LeaVerou/awesomplete/gh-pages/awesomplete.min.js"></script> -->
+</body>
+
+</html>
